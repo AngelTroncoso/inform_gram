@@ -11,19 +11,19 @@
 
   <p>
     <strong>Categories:</strong>
-    <%= property.categories.each do |item| %>
+    <%= article.categories.each do |item| %>
       <%= content_tag :span, item.name, class: "tag" %>
   </p>
 
   <p>
     <strong>Location:</strong>
-    <%= article.location_id.name %>
+    <%= article.location_id %>
     <% end %>
   </p>
 
   <p>
     <strong>User:</strong>
-    <%= article.user_id.email %>
+    <%= article.user_id %>
   </p>
 
   <p>

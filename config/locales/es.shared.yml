@@ -1,0 +1,12 @@
+es:
+  shared:
+    navbar:
+      home: Inicio
+      about: Nosotros
+      contact: Contacto
+      sign_in: Iniciar sesión
+      sign_up: Registrarse
+      sign_out: Cerrar sesión
+      article: Articulo
+      articles: Articulos
+      

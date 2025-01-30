@@ -1,0 +1,23 @@
+es:
+  activerecord:
+    models:
+      article: Publicación
+      articles: publiciones
+    attributes:
+      article:
+        title: Título
+        content: Contenido
+        status: Estado
+        published: Publicado
+        draft: Borrador
+        available: Disponible
+        unavailable: No disponible
+        published_at: Publicado el
+        available_at: Disponible el
+        content: Contenido
+        users: Usuarios
+        admin: Administrador
+        created_at: Creado el
+        updated_at: Actualizado el
+        user: Usuario
+

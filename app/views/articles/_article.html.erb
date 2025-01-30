@@ -1,0 +1,34 @@
+<div id="<%= dom_id article %>">
+  <p>
+    <strong>Title:</strong>
+    <%= article.title %>
+  </p>
+
+  <p>
+    <strong>Content:</strong>
+    <%= article.content %>
+  </p>
+
+  <p>
+    <strong>Categories:</strong>
+    <%= property.categories.each do |item| %>
+      <%= content_tag :span, item.name, class: "tag" %>
+  </p>
+
+  <p>
+    <strong>Location:</strong>
+    <%= article.location_id.name %>
+    <% end %>
+  </p>
+
+  <p>
+    <strong>User:</strong>
+    <%= article.user_id.email %>
+  </p>
+
+  <p>
+    <strong>Available:</strong>
+    <%= article.available %>
+  </p>
+
+</div>
